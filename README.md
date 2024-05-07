@@ -245,16 +245,17 @@ Registeration Number :212222040022
 ## zoomanimation.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fillAfter="true" >
+<set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale
-        android:duration="500"
-        android:fromXScale="1.0"
-        android:fromYScale="1.0"
         android:interpolator="@android:anim/linear_interpolator"
-        android:toXScale="1.0"
-        android:toYScale="0.0" />
+        android:duration = "1000"
+        android:fromYScale = "1"
+        android:pivotX = "50%"
+        android:pivotY = "50%"
+        android:toXScale = "2"
+        android:toYScale = "2"/>
 </set>
+
 ```
 ## MainActivity_java:
 ```
