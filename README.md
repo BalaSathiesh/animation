@@ -62,7 +62,8 @@ Registeration Number :212222040022
         android:layout_marginTop="30dp"
         android:orientation="horizontal"
         android:weightSum="3">
-
+```
+```
         <!--To start the blink animation of the image-->
         <Button
             android:id="@+id/BTNblink"
