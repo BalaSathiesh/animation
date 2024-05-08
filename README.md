@@ -274,7 +274,8 @@ public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
     Button blinkBTN, rotateBTN, fadeBTN, moveBTN, slideBTN, zoomBTN, stopBTN;
-
+```
+```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
